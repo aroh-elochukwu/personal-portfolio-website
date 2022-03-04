@@ -28,9 +28,12 @@ menu i {
   padding: 0.6em;
 }
 
-menu h2:hover,
-menu i:hover,
-footer i:hover {
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+a:hover {
   cursor: pointer;
 }
 
