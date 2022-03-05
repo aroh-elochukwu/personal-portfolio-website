@@ -37,7 +37,13 @@ header ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  margin: 1em 2em;
+  margin: 2em 3em;
+  transition: transform 0.5s ease-in;
+}
+
+header h2:hover,
+header i:hover {
+  transform: scale(1.2);
 }
 
 main {
@@ -54,6 +60,11 @@ main h1 {
   letter-spacing: 1px;
   margin-bottom: 3px;
   text-shadow: -3px 3px 2px gray;
+}
+
+main h1:hover {
+  transform: scale(1.1);
+  color: rgb(192, 188, 188);
 }
 
 footer ul {

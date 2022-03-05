@@ -17,13 +17,13 @@ body {
   height: 100vh;
 }
 
-menu h2 {
+header h2 {
   font-size: 2em;
   font-weight: 300;
   padding: 0.4em;
 }
 
-menu i {
+header i {
   font-size: 3em;
   padding: 0.6em;
 }
@@ -37,11 +37,17 @@ a:hover {
   cursor: pointer;
 }
 
+header h2:hover,
+header i:hover {
+  transform: scale(1.2);
+}
+
 menu ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  margin: 1em 2em;
+  margin: 2em 3em;
+  transition: transform 0.5s ease-in;
 }
 
 main {
