@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color: rgb(68, 68, 68);
+  font-size: 62.5%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  background-color: rgb(246, 246, 246);
+  min-height: 100vh;
+}
+
+a {
+  color: rgb(68, 68, 68);
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+header {
+  background-color: white;
+}
+
+header h2 {
+  font-size: 2em;
+  font-weight: 300;
+  padding: 0.4em;
+}
+
+header i {
+  font-size: 2.5em;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 1.2em 2em 1.2em 2em;
+  transition: transform 0.5s ease-in;
+  box-shadow: 2px 2px 2px rgb(219, 218, 218);
+}
+
+header h2:hover,
+header i:hover {
+  transform: scale(1.2);
+}
+
+main {
+  margin: 0 9em;
+}
+
+main :nth-child(2) {
+  margin-top: 3em;
+}
+
+main h2 {
+  font-size: 6em;
+  font-weight: 100;
+  padding: 0.2em 0;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+main h4 {
+  font-size: 1.8em;
+  font-weight: 100;
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+}
+
+main input {
+  width: 100%;
+  height: 3em;
+}
+
+main textarea {
+  width: 100%;
+}
+
+main button {
+  background-color: rgb(68, 68, 68);
+  color: aliceblue;
+  margin: 2em 0 2em 0;
+  text-transform: uppercase;
+  width: 7em;
+  height: 4em;
+  border-radius: 40px;
+}
+
+footer {
+  background-color: rgb(68, 68, 68);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8em;
+
+  min-height: 8em;
+}
+
+footer p {
+  color: rgb(150, 148, 148);
+  font-size: 1.4em;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer a {
+  color: rgb(150, 148, 148);
+  font-size: 2em;
+  padding-left: 2em;
+}
+
+footer a:hover {
+  color: rgb(122, 119, 119);
+}
