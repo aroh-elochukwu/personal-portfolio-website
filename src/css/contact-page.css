@@ -54,6 +54,7 @@ header i:hover {
 
 main {
   margin: 0 9em;
+  min-height: 85vh;
 }
 
 main :nth-child(2) {
