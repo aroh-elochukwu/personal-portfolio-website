@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color: rgb(68, 68, 68);
+  font-size: 62.5%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  background-color: rgb(246, 246, 246);
+  min-height: 100vh;
+}
+
+a {
+  color: rgb(68, 68, 68);
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+header {
+  background-color: white;
+}
+
+header h2 {
+  font-size: 2em;
+  font-weight: 300;
+  padding: 0.4em;
+}
+
+header i {
+  font-size: 2.5em;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 1.2em 2em 1.2em 2em;
+  transition: transform 0.5s ease-in;
+  box-shadow: 2px 2px 2px rgb(219, 218, 218);
+}
+
+header h2:hover,
+header i:hover {
+  transform: scale(1.2);
+}
+
+main {
+  display: flex;
+  min-height: 84vh;
+}
+
+main img {
+  filter: grayscale(60%);
+  height: 70vh;
+  margin: auto 0;
+  object-fit: cover;
+  width: 45%;
+}
+
+main article {
+  margin: 10em 3em;
+}
+
+main h1 {
+  font-size: 3.5em;
+  font-weight: 100;
+  margin-bottom: 0.3em;
+}
+
+main p {
+  font-size: 2em;
+  line-height: 1.5;
+  margin-bottom: 0.2em;
+}
+
+footer {
+  background-color: rgb(68, 68, 68);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8em;
+
+  min-height: 8em;
+}
+
+footer p {
+  color: rgb(150, 148, 148);
+  font-size: 1.4em;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer a {
+  color: rgb(150, 148, 148);
+  font-size: 2em;
+  padding-left: 2em;
+}
+
+footer a:hover {
+  color: rgb(122, 119, 119);
+}
