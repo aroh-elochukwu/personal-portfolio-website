@@ -1,20 +1,22 @@
 {
   "name": "personal-portfolio-website",
-  "version": "1.0.0",
   "description": "A personal portfolio website for my software development career launched during my Tools and automation course at the Manitoba Institute of Trades and Technology.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": {  
+    "rollup": "rollup src/js/*.js --file src/js/bundle.js --format es"
+
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aroh-elochukwu/personal-portfolio-website.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Elochukwu Aroh <elochukwuaroh@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/aroh-elochukwu/personal-portfolio-website/issues"
   },
-  "homepage": "https://github.com/aroh-elochukwu/personal-portfolio-website#readme"
+  "homepage": "https://github.com/aroh-elochukwu/personal-portfolio-website#readme",
+  "devDependencies": {
+    "rollup": "2.70.0"
+  }
 }
