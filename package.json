@@ -2,9 +2,12 @@
   "name": "personal-portfolio-website",
   "description": "A personal portfolio website for my software development career launched during my Tools and automation course at the Manitoba Institute of Trades and Technology.",
   "main": "index.js",
-  "scripts": {  
-    "rollup": "rollup src/js/*.js --file src/js/bundle.js --format es"
-
+  "scripts": {
+    "build:css": "cleancss src/css/*.css -o dist/css/style.min.css",
+    "copy:html": "cp src/*.html dist",
+    "imagemin": "imagemin src/images/* -o dist/images",
+    "rollup": "rollup src/js/*.js --file dist/js/bundle.js --format es",
+    "build": "npm run build:css && npm run copy:html && npm run imagemin "
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,8 @@
   },
   "homepage": "https://github.com/aroh-elochukwu/personal-portfolio-website#readme",
   "devDependencies": {
+    "clean-css-cli": "^5.5.2",
+    "imagemin-cli": "^7.0.0",
     "rollup": "2.70.0"
   }
 }
