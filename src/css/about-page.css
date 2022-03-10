@@ -1,44 +1,28 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+/* About page styles */
 
-html {
-  color: rgb(68, 68, 68);
-  font-size: 62.5%;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
+/* Resets */
 
-body {
+.about-page {
   background-color: rgb(246, 246, 246);
+  color: rgb(68, 68, 68);
   min-height: 100vh;
 }
 
-a {
+.gray-color {
   color: rgb(68, 68, 68);
-  text-decoration: none;
 }
 
-a:hover {
-  cursor: pointer;
-}
+/* About page header section */
 
-header {
+.about-page header {
   background-color: white;
 }
 
-header h2 {
-  font-size: 2em;
-  font-weight: 300;
-  padding: 0.4em;
-}
-
-header i {
+.about-page-header i {
   font-size: 2.5em;
 }
 
-header ul {
+.about-page-header ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -47,16 +31,13 @@ header ul {
   box-shadow: 2px 2px 2px rgb(219, 218, 218);
 }
 
-header h2:hover,
-header i:hover {
-  transform: scale(1.2);
-}
+/* About page main section */
 
-main {
+.about-page-main {
   min-height: 84vh;
 }
 
-main img {
+img {
   filter: grayscale(60%);
   height: 70vh;
   margin: auto 0;
@@ -64,24 +45,26 @@ main img {
   width: 100%;
 }
 
-main article {
+.about-page-main article {
   margin: 2em 3em;
 }
 
-main h1 {
+.about-page-h1 {
   font-size: 3.5em;
   font-weight: 100;
   margin-bottom: 0.3em;
 }
 
-main p {
+.about-page-p {
   font-size: 2em;
   line-height: 1.5;
   margin-bottom: 0.2em;
 }
 
-@media screen and (min-width: 550px) {
-  main {
+/* About page responsive screen styles */
+
+@media screen and (min-width: 750px) {
+  .about-page-main {
     display: flex;
   }
 
@@ -94,31 +77,32 @@ main p {
   }
 }
 
-footer {
+/* About page footer section style */
+
+.about-page-footer {
   background-color: rgb(68, 68, 68);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 8em;
-
   min-height: 8em;
 }
 
-footer p {
+.about-page-footer p {
   color: rgb(150, 148, 148);
   font-size: 1.4em;
 }
 
-footer ul {
+.about-page-footer ul {
   display: flex;
 }
 
-footer a {
+.about-page-footer a {
   color: rgb(150, 148, 148);
   font-size: 2em;
   padding-left: 2em;
 }
 
-footer a:hover {
+.about-page-footer a:hover {
   color: rgb(122, 119, 119);
 }

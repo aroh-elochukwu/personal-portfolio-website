@@ -1,3 +1,5 @@
+/* Home page styles */
+
 /* Resets */
 
 * {
@@ -37,7 +39,7 @@ header a {
   text-decoration: none;
 }
 
-header a:hover {
+a:hover {
   cursor: pointer;
 }
 
@@ -56,7 +58,7 @@ menu ul {
 
 /* Main section styles */
 
-main {
+.home-page-main-section {
   align-items: center;
   display: flex;
   flex-direction: column;
