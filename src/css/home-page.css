@@ -1,3 +1,5 @@
+/* Resets */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -16,6 +18,8 @@ html {
   background-repeat: no-repeat;
   height: 100vh;
 }
+
+/* Header section styles */
 
 header h2 {
   font-size: 2em;
@@ -50,6 +54,8 @@ menu ul {
   transition: transform 0.5s ease-in;
 }
 
+/* Main section styles */
+
 main {
   align-items: center;
   display: flex;
@@ -76,6 +82,8 @@ main {
 main span {
   font-family: cursive;
 }
+
+/* Footer section styles */
 
 footer {
   text-align: center;
