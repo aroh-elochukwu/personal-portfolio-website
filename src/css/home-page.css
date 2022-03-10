@@ -10,7 +10,7 @@ html {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-body {
+.home-page-background {
   background-image: url("../images/background-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -28,12 +28,12 @@ header i {
   padding: 0.6em;
 }
 
-a {
+header a {
   color: aliceblue;
   text-decoration: none;
 }
 
-a:hover {
+header a:hover {
   cursor: pointer;
 }
 
@@ -59,14 +59,14 @@ main {
   text-align: center;
 }
 
-main h1 {
+.home-page-h1 {
   font-size: 6em;
   font-weight: 100;
   text-transform: capitalize;
   width: 300px;
 }
 
-main h3 {
+.home-page-h3 {
   font-size: 2.5em;
   font-weight: 100;
   letter-spacing: 2px;
@@ -81,7 +81,7 @@ footer {
   text-align: center;
 }
 
-footer i {
+.home-page-footer i {
   color: gray;
   border: 3px solid gray;
   border-radius: 50%;
