@@ -37,7 +37,7 @@
   min-height: 84vh;
 }
 
-img {
+.about-page-main img {
   filter: grayscale(60%);
   height: 70vh;
   margin: auto 0;
@@ -68,7 +68,7 @@ img {
     display: flex;
   }
 
-  main img {
+  .about-page-main img {
     width: 45%;
   }
 
