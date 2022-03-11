@@ -80,12 +80,12 @@ img {
 /* About page footer section style */
 
 .about-page-footer {
+  align-items: center;
   background-color: rgb(68, 68, 68);
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 0 8em;
   min-height: 8em;
+  padding: 0 8em;
 }
 
 .about-page-footer p {
