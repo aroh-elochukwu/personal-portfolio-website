@@ -1,0 +1,86 @@
+/* Project page styles */
+
+/* Resets */
+
+.project-page {
+  background-color: rgb(246, 246, 246);
+  color: rgb(68, 68, 68);
+  min-height: 100vh;
+}
+
+.gray-color {
+  color: rgb(68, 68, 68);
+}
+
+/* Project page header section */
+
+.project-page header {
+  background-color: white;
+}
+
+.project-page-header i {
+  font-size: 2.5em;
+}
+
+.project-page-header ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 1.2em 2em 1.2em 2em;
+  transition: transform 0.5s ease-in;
+  box-shadow: 2px 2px 2px rgb(219, 218, 218);
+}
+
+/* Project page main section */
+
+.project-page-article {
+  text-align: center;
+}
+
+.project-page-image-div {
+  display: flex;
+  margin: 1em 8em 8em;
+  justify-content: space-around;
+}
+
+.project-page-image-div img {
+  width: 40%;
+  height: 60vh;
+}
+
+.project-page-article h3 {
+  font-size: 3em;
+}
+
+.project-page-article p {
+  font-size: 2em;
+}
+/* Project page footer section style */
+
+.project-page-footer {
+  align-items: center;
+  background-color: rgb(68, 68, 68);
+  display: flex;
+  justify-content: space-between;
+  min-height: 8em;
+  padding: 0 8em;
+}
+
+.project-page-footer p {
+  color: rgb(150, 148, 148);
+  font-size: 1.4em;
+}
+
+.project-page-footer ul {
+  display: flex;
+}
+
+.project-page-footer a {
+  color: rgb(150, 148, 148);
+  font-size: 2em;
+  padding-left: 2em;
+}
+
+.project-page-footer a:hover {
+  color: rgb(122, 119, 119);
+}
