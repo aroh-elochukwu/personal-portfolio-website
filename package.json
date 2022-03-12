@@ -7,7 +7,8 @@
     "copy:html": "mkdirp dist/pages && cp src/*.html dist && cp src/pages/*.html dist/pages ",
     "imagemin": "imagemin src/images/* -o dist/images",
     "build:js": "mkdirp dist/js && uglifyjs src/js/*.js -o dist/js/app.js",
-    "build": "npm run build:css && npm run copy:html && npm run imagemin && npm run rollup"
+    "copy:docs": "mkdirp dist/documents && cp src/documents/* dist/documents",
+    "build": "npm run build:css && npm run copy:html && npm run imagemin && npm run build:js && npm run copy:docs"
   },
   "repository": {
     "type": "git",
