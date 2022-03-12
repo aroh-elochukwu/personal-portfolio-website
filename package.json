@@ -4,9 +4,9 @@
   "main": "index.js",
   "scripts": {
     "build:css": "cleancss src/css/*.css -o dist/css/style.min.css",
-    "copy:html": "cp src/pages/*.html dist && cp src/*.html dist",
+    "copy:html": "mkdirp dist/pages && cp src/*.html dist && cp src/pages/*.html dist/pages ",
     "imagemin": "imagemin src/images/* -o dist/images",
-    "rollup": "rollup src/js/*.js --file dist/js/bundle.js --format es",
+    "build:js": "mkdirp dist/js && uglifyjs src/js/*.js -o dist/js/app.js",
     "build": "npm run build:css && npm run copy:html && npm run imagemin && npm run rollup"
   },
   "repository": {
@@ -22,6 +22,8 @@
   "devDependencies": {
     "clean-css-cli": "^5.5.2",
     "imagemin-cli": "^7.0.0",
-    "rollup": "2.70.0"
+    "mkdirp": "^1.0.4",
+    "rollup": "2.70.0",
+    "uglify-js": "^3.15.3"
   }
 }
