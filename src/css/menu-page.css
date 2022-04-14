@@ -29,11 +29,22 @@ body {
   letter-spacing: 1px;
   margin-bottom: 3px;
   text-shadow: -3px 3px 2px gray;
-
-  /* Menu page footer section */
 }
 
-.menu-page-h1:hover {
+
+.projects-hidden-menu {
+  display: none;
+}
+
+.projects:hover .projects-hidden-menu {
+  display: block;
+  list-style: none;
+  font-size: .4em;
+}
+  /* Menu page footer section */
+
+
+.menu-page-h1 {
   transform: scale(1.1);
   color: rgb(192, 188, 188);
 }
