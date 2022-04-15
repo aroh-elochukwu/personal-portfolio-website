@@ -1,0 +1,142 @@
+/* Technical writing blog page styles */
+
+/* Resets */
+
+.technical-writing-blog {
+  background-color: rgb(246, 246, 246);
+  color: rgb(68, 68, 68);
+  /* min-height: 100vh; */
+}
+
+/* .gray-color {
+  color: rgb(68, 68, 68);
+} */
+
+/* Technical writing blog page header section */
+
+.technical-writing-blog header {
+  background-color: white;
+}
+
+.technical-wb-header i {
+  font-size: 2.5em;
+}
+
+.technical-wb-header ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 1.2em 2em 1.2em 2em;
+  transition: transform 0.5s ease-in;
+  box-shadow: 2px 2px 2px rgb(219, 218, 218);
+}
+
+/* About page main section */
+
+/* .technical-wb-page-main {
+
+  
+} */
+
+
+.technical-wb-article {
+  margin: 2em 3em;
+  padding-bottom: 5em;
+  border-bottom: 2px dashed grey;
+}
+
+.technical-wb-h1 {
+  font-size: 3.5em;
+  font-weight: 100;
+  margin-bottom: 0.3em;
+  text-align: center;
+  text-decoration: double;
+}
+
+.technical-wb-p {
+  font-size: 2em;
+  line-height: 1.5;
+  margin-bottom: 0.2em;
+  padding: 0 5em;
+  text-indent: 50px;
+}
+
+.technical-wb-page-main img{
+  display: block;
+  margin: 0  auto;
+  height: 22em;
+}
+
+.technical-wb-page-main ul {
+  font-size: 2em;
+  line-height: 1.5;
+  margin-bottom: 0.6em;
+  padding: 0 13em;
+}
+
+.technical-wb-page-main ol {
+  font-size: 2em;
+  line-height: 1.5;
+  margin-bottom: 0.6em;
+  padding: 0 13em;
+}
+
+.technical-wb-page-main h2 {
+  font-size: 2.5em;
+  font-weight: 100;
+  margin-bottom: 0.3em;
+  padding: 0 5em;
+  text-decoration: underline;
+  
+}
+
+.code-text {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.technical-wb-article table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.technical-wb-article th,
+.technical-wb-article td {
+  border: 1px solid grey;
+  padding: 10px;
+  font-size: 2.2em;
+}
+
+
+
+/* Technical writing blog page footer section style */
+
+.technical-wb-page-footer {
+  align-items: center;
+  background-color: rgb(68, 68, 68);
+  display: flex;
+  justify-content: space-between;
+  min-height: 8em;
+  padding: 0 8em;
+}
+
+.technical-wb-page-footer p {
+  color: rgb(150, 148, 148);
+  font-size: 1.4em;
+}
+
+.technical-wb-page-footer ul {
+  display: flex;
+}
+
+.technical-wb-page-footer a {
+  color: rgb(150, 148, 148);
+  font-size: 2em;
+  padding-left: 2em;
+}
+
+.technical-wb-page-footer a:hover {
+  color: rgb(122, 119, 119);
+}

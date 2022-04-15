@@ -31,7 +31,18 @@ body {
   text-shadow: -3px 3px 2px gray;
 }
 
+.menu-page ul {
+  margin: 0 0  2em 0;
+}
 
+.menu-page li {
+  margin-bottom: 0.2em;
+}
+
+.menu-page li:hover {
+  color: black;
+}
+ 
 .projects-hidden-menu {
   display: none;
 }
