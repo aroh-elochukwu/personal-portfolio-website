@@ -5,12 +5,51 @@
 .technical-writing-blog {
   background-color: rgb(246, 246, 246);
   color: rgb(68, 68, 68);
-  /* min-height: 100vh; */
+  /* height: 100vh; */
 }
 
 /* .gray-color {
   color: rgb(68, 68, 68);
 } */
+
+/* Technical writing blog menupage styles */
+
+.technical-writing-blog-menupage-main{
+  min-height: 70vh;
+}
+
+.technical-writing-blog-menupage-main article > a {
+  display: flex;
+  justify-content: space-between;
+  padding: 3em 25em;
+  text-decoration: none;
+  border: 2px solid grey;
+ 
+}
+
+.technical-writing-blog-menupage-main img {
+  height: 20em;
+  width: 30em;
+}
+
+.technical-writing-blog-menupage-main h1 {
+  font-size: 2.5em;
+  color: rgb(78, 74, 74);  
+  padding-bottom: 0.5em;
+  text-align: center;
+}
+
+.technical-writing-blog-menupage-main p {
+  font-size: 1.8em;
+  color: rgb(78, 74, 74); ;  
+}
+
+.technical-writing-blog-menupage-main div {
+  width: 50em;
+  padding-left: 2em;
+  
+}
+
 
 /* Technical writing blog page header section */
 
@@ -42,7 +81,7 @@
 .technical-wb-article {
   margin: 2em 3em;
   padding-bottom: 5em;
-  border-bottom: 2px dashed grey;
+
 }
 
 .technical-wb-h1 {
@@ -59,6 +98,21 @@
   margin-bottom: 0.2em;
   padding: 0 5em;
   text-indent: 50px;
+}
+
+.technical-wb-datetag {
+  font-size: 2em;
+  font-weight: 800;
+  line-height: 1.5;
+  margin-bottom: 0.2em;
+  padding: 0 5em;
+  color: black;
+  text-align: end;
+  
+}
+
+.technical-wb-datetag:nth-of-type(2n){
+  padding-bottom: 3em;
 }
 
 .technical-wb-page-main img{
