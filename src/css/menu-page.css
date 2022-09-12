@@ -47,11 +47,14 @@ body {
   display: none;
 }
 
-.projects:hover .projects-hidden-menu {
+
+/* .projects:hover .projects-hidden-menu {
   display: block;
   list-style: none;
   font-size: .4em;
-}
+} */
+
+
   /* Menu page footer section */
 
 
