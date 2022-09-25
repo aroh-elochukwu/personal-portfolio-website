@@ -24,10 +24,10 @@ body {
 }
 
 .menu-page-h1 {
-  font-size: 5.5em;
+  font-size: 5em;
   font-weight: 100;
   letter-spacing: 1px;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
   text-shadow: -3px 3px 2px gray;
 }
 
